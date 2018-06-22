@@ -5,7 +5,7 @@ Source code for AC/DC TCP SIGCOMM 2016 paper.
 http://ericrozner.com/papers/he2016sigcomm.pdf
 
 ###### Installation details:
-The source code is set up to work with Open vSwitch v2.3.2 and Linux kernel 3.18.0. Our systems ran Ubuntu. Copy the datapath.c file to the the relevant directory in OVS and compile.
+The source code is set up to work with Open vSwitch v2.3.2 and Linux kernel 3.18.0. Our systems ran Ubuntu. Copy the datapath.c file to the the relevant directory in OVS, change the "BRIDGE_NAME" variable in the code, and compile. Please note this code is a research prototype and we cannot provide extensive support.
 
 ###### Bibtex Citation: 
 ```
